@@ -1,11 +1,13 @@
+/*El addEventListener nos permite llamar a la funcion generarCuadricula 
+al cargar el documento*/
 document.addEventListener("DOMContentLoaded", () => {
     generarCuadricula();
 });
 function generarCuadricula() {
-    //Recibe el variable contenedor que recibe el div con id grid del index.html y lo vacia
+    //Crea la variable contenedor que recibe el div con id grid del index.html y lo vacia
     const contenedor = document.getElementById("grid");
     contenedor.innerHTML = "";
-    // recibe los personajes y los mezcla de forma aleatoria mediante un sort 
+    //Recibe los personajes y los mezcla de forma aleatoria mediante un sort 
     const personajesMezclados = [...personajes].sort(() => Math.random() - 0.5);
     //Recorre el array de personajesMezclados
     personajesMezclados.forEach(personaje => {
@@ -35,7 +37,7 @@ function generarCuadricula() {
         se le añade como contenido de texto el nombre del personaje*/
         const nombre = document.createElement("p");
         nombre.textContent = personaje.nombre;
-        
+
         div.appendChild(img);
         div.appendChild(nombre);
         contenedor.appendChild(div);
