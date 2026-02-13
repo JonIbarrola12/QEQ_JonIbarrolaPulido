@@ -1,0 +1,18 @@
+const personajes = [
+    { nombre: "Chihiro Ogino", imagen: "../imagenes/Chihiro.png" },
+    { nombre: "Haku", imagen: "../imagenes/Haku.png" },
+    { nombre: "Totoro", imagen: "../imagenes/Totoro.png" },
+    { nombre: "Satsuki Kusakabe", imagen: "../imagenes/Satsuki.png" },
+    { nombre: "Mei Kusakabe", imagen: "../imagenes/Mei.png" },
+    { nombre: "Sophie Hatter", imagen: "../imagenes/Sophie.png" },
+    { nombre: "Hawl", imagen: "../imagenes/Hawl.png" },
+    { nombre: "Calcifer", imagen: "../imagenes/Calcifer.png" },
+    { nombre: "Jiji", imagen: "../imagenes/Jiji.png" },
+    { nombre: "Nausicaä", imagen: "../imagenes/Nausica.png" },
+    { nombre: "San", imagen: "../imagenes/San.png" },
+    { nombre: "Ashitaka", imagen: "../imagenes/Ashitaka.png" },
+    { nombre: "Ponyo", imagen: "../imagenes/Ponyo.png" },
+    { nombre: "Sosuke", imagen: "../imagenes/Sosuke.png" },
+    { nombre: "Pazu", imagen: "../imagenes/Pazu.png" },
+    { nombre: "Porco Rosso", imagen: "../imagenes/Porco.png" },
+];
